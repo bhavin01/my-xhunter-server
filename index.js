@@ -10,7 +10,7 @@ var victimList={};
 var deviceList={};
 var victimData={};
 var adminSocketId=null;
-const port = 8080;
+const port = 4444;
 
 server.listen(process.env.PORT || port, (err) => {  if (err) return;log("Server Started : " + port);});
 app.get('/', (req, res) => res.send('Welcome to Xhunter Backend Server!!'))
